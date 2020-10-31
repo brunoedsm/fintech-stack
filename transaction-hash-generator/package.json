@@ -1,0 +1,20 @@
+{
+  "name": "transaction-hash-generator",
+  "version": "1.0.0",
+  "description": "Hash generator API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Hash",
+    "Generator"
+  ],
+  "author": "Bruno Monteiro",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "crypto-js": "^4.0.0",
+    "express": "^4.17.1"
+  }
+}

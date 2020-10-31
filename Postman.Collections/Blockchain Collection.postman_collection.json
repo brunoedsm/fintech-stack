@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "2e935087-caad-432d-bbde-a9bd0e0cec94",
+		"name": "Blockchain Collection",
+		"description": "Collection of blockchain tests and PoCs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "[POST][LOCALHOST][TRANSACTION-HASH-GENERATOR]Authorization",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"from\":\"Bruno\",\n    \"to\":\"Davi\",\n    \"amount\": 100,\n    \"currency\":\"EUR\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:3000/authorization",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"authorization"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
